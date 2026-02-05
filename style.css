@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* HERO */
+.hero {
+  background: #1ABC9C;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: #fff;
+  color: #1ABC9C;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+/* SEÇÕES */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+ul li {
+  margin: 8px 0;
+}
+
+/* PREÇO */
+.value {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1ABC9C;
+}
+
+/* FOOTER */
+footer {
+  background: #eee;
+  padding: 20px;
+  font-size: 14px;
+}
